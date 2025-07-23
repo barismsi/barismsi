@@ -48,10 +48,10 @@ I'm a disciplined and motivated tech enthusiast from Eskişehir, Turkey, eager t
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=SENIN-KULLANICI-ADIN&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Barış's GitHub Stats" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=barismsi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Barış's GitHub Stats" />
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SENIN-KULLANICI-ADIN&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=barismsi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
   </a>
 </p>
 
@@ -70,5 +70,5 @@ Before my journey into programming, I created over 100 3D animations for clients
 ## 📫 How to Reach Me
 
 <p align="center">
-  <a href="[LINKEDIN-PROFIL-URLN]" target="_blank">
+  <a href="[https://www.linkedin.com/in/barismsi/]" target="_blank">
     <img src="
