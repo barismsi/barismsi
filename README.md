@@ -1,13 +1,13 @@
-[README (2).md](https://github.com/user-attachments/files/26649776/README.2.md)
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:050510,40:0f172a,75:1e1b4b,100:0a0a0f&height=260&section=header&text=Bar%C4%B1%C5%9F&fontSize=62&fontColor=e5e7eb&animation=twinkling&fontAlignY=42&desc=AI%20App%20Developer%20%7C%20RAG%20Systems%20%7C%20Automation%20Workflows%20%7C%20LLM%20Products&descAlignY=64&descSize=16&descFontColor=a78bfa" alt="header" />
-</p>
+[README_fixed.md](https://github.com/user-attachments/files/26649808/README_fixed.md)
+<div align="center">
 
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1300&color=A78BFA&center=true&vCenter=true&width=900&lines=Building+AI+products+that+solve+real+workflow+problems.;RAG+chatbots%2C+LLM+integrations%2C+and+automation+systems.;From+idea+to+usable+product+with+clean+implementation.;Code+should+work.+Products+should+feel+finished." alt="Typing SVG" />
-  </a>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:050510,45:111827,75:312e81,100:0a0a0f&height=240&section=header&text=Bar%C4%B1%C5%9F&fontSize=62&fontColor=E5E7EB&animation=twinkling&fontAlignY=42&desc=AI%20App%20Developer%20%7C%20RAG%20Systems%20%7C%20Automation%20Workflows%20%7C%20LLM%20Products&descAlignY=64&descSize=16&descFontColor=A78BFA" />
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1300&color=A78BFA&center=true&vCenter=true&width=920&lines=Building+AI+products+that+solve+real+workflow+problems.;RAG+chatbots%2C+LLM+integrations%2C+and+automation+systems.;From+idea+to+usable+product+with+clean+implementation.;Code+should+work.+Products+should+feel+finished." />
+
+</div>
 
 ---
 
@@ -85,10 +85,10 @@ I am especially interested in:
 <p>
   <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=A78BFA" />
   <img src="https://img.shields.io/badge/OpenAI-0d1117?style=for-the-badge&logo=openai&logoColor=A78BFA" />
-  <img src="https://img.shields.io/badge/Claude-0d1117?style=for-the-badge&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/Claude-0d1117?style=for-the-badge&color=0d1117&labelColor=0d1117" />
   <img src="https://img.shields.io/badge/Gemini-0d1117?style=for-the-badge&logo=google&logoColor=A78BFA" />
-  <img src="https://img.shields.io/badge/LangChain-0d1117?style=for-the-badge&logo=chainlink&logoColor=A78BFA" />
-  <img src="https://img.shields.io/badge/Ollama-0d1117?style=for-the-badge&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/LangChain-0d1117?style=for-the-badge&color=0d1117&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Ollama-0d1117?style=for-the-badge&color=0d1117&labelColor=0d1117" />
 </p>
 
 ### Backend / App Logic
@@ -97,13 +97,13 @@ I am especially interested in:
   <img src="https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=A78BFA" />
   <img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=A78BFA" />
   <img src="https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=nextdotjs&logoColor=A78BFA" />
-  <img src="https://img.shields.io/badge/APIs-0d1117?style=for-the-badge&logo=fastify&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/APIs-0d1117?style=for-the-badge&color=0d1117&labelColor=0d1117" />
 </p>
 
 ### Data / Infra / Automation
 <p>
   <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=A78BFA" />
-  <img src="https://img.shields.io/badge/ChromaDB-0d1117?style=for-the-badge&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/ChromaDB-0d1117?style=for-the-badge&color=0d1117&labelColor=0d1117" />
   <img src="https://img.shields.io/badge/n8n-0d1117?style=for-the-badge&logo=n8n&logoColor=A78BFA" />
   <img src="https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=A78BFA" />
   <img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=A78BFA" />
@@ -125,15 +125,6 @@ const interests = [
 
 ---
 
-## `github_stats`
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=barismsi&show_icons=true&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=cbd5e1&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=barismsi&layout=compact&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=cbd5e1" />
-</p>
-
----
-
 ## `connect`
 
 <p>
@@ -147,6 +138,8 @@ const interests = [
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:1e1b4b,100:0f172a&height=100&section=footer" />
-</p>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:1e1b4b,100:111827&height=100&section=footer" />
+
+</div>
