@@ -1,4 +1,4 @@
-(https://github.com/user-attachments/files/26649808/README_fixed.md)
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:050510,45:111827,75:312e81,100:0a0a0f&height=240&section=header&text=Bar%C4%B1%C5%9F&fontSize=62&fontColor=E5E7EB&animation=twinkling&fontAlignY=42&desc=AI%20App%20Developer%20%7C%20RAG%20Systems%20%7C%20Automation%20Workflows%20%7C%20LLM%20Products&descAlignY=64&descSize=16&descFontColor=A78BFA" />
