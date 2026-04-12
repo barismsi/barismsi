@@ -1,72 +1,152 @@
-[README (1).md](https://github.com/user-attachments/files/26647341/README.1.md)
-![header](https://capsule-render.vercel.app/api?type=venom&color=0:050510,50:12002e,100:060618&height=260&section=header&text=baris.msi&fontSize=75&fontColor=c084fc&animation=twinkling&fontAlignY=48&desc=AI%20%26%20LLM%20App%20Developer%20%E2%80%94%20Eskişehir%2C%20TR&descAlignY=66&descSize=16&descFontColor=7c3aed)
+[README (2).md](https://github.com/user-attachments/files/26649776/README.2.md)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:050510,40:0f172a,75:1e1b4b,100:0a0a0f&height=260&section=header&text=Bar%C4%B1%C5%9F&fontSize=62&fontColor=e5e7eb&animation=twinkling&fontAlignY=42&desc=AI%20App%20Developer%20%7C%20RAG%20Systems%20%7C%20Automation%20Workflows%20%7C%20LLM%20Products&descAlignY=64&descSize=16&descFontColor=a78bfa" alt="header" />
+</p>
 
-<br>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1400&color=9333EA&center=true&vCenter=true&width=680&lines=I+build+products+on+top+of+LLMs.;Agents+that+act.+Pipelines+that+think.;Python+%7C+OpenAI+%7C+LangChain+%7C+FastAPI;Formerly+a+3D+artist+%E2%80%94+the+eye+for+detail+stayed.)](https://git.io/typing-svg)
-
-<br>
-
----
-
-### what i do
-
-i build **AI-native applications** — not wrappers, actual products.  
-things like RAG systems that talk to your own data, agents that don't need babysitting,  
-automation pipelines that replace whole workflows.
-
-my stack is Python-first. LangChain, OpenAI API, Ollama for local models, FastAPI for serving,  
-Postgres when data needs to stay put.
-
-i came up through 3D animation — 5 years, 100+ clients, Fiverr & Upwork.  
-that background does one thing for my code: i don't ship things that look or feel broken.
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1300&color=A78BFA&center=true&vCenter=true&width=900&lines=Building+AI+products+that+solve+real+workflow+problems.;RAG+chatbots%2C+LLM+integrations%2C+and+automation+systems.;From+idea+to+usable+product+with+clean+implementation.;Code+should+work.+Products+should+feel+finished." alt="Typing SVG" />
+  </a>
+</p>
 
 ---
 
-### currently
+## `whoami`
 
-- building LLM-powered tools with real-world use cases
-- going deeper on agent architecture and memory systems  
-- exploring local model deployments with Ollama  
-- open to collaborating on anything genuinely interesting
+```bash
+> whoami
+Barış
+
+> role
+AI App Developer / Builder
+
+> focus
+RAG systems, AI assistants, workflow automation, internal tools
+
+> approach
+build useful software, not empty demos
+```
+
+I build **AI-powered products** with a strong focus on **real use cases, clean implementation, and scalable structure**.
+
+Most of my work lives at the intersection of:
+
+- **LLM apps**
+- **RAG chatbots**
+- **AI integrations**
+- **automation workflows**
+- **internal business tools**
+
+I care about one thing more than hype:
+
+> **software that is actually usable**
+
+That means:
+- clean architecture
+- practical UX
+- maintainable code
+- business-ready features
+- systems that solve a real problem
 
 ---
 
-### stack
+## `current_builds`
 
-**AI/LLM**  
-![Python](https://img.shields.io/badge/python-0d1117?style=flat-square&logo=python&logoColor=c084fc)
-![OpenAI](https://img.shields.io/badge/openai-0d1117?style=flat-square&logo=openai&logoColor=c084fc)
-![LangChain](https://img.shields.io/badge/langchain-0d1117?style=flat-square&logo=chainlink&logoColor=c084fc)
-![HuggingFace](https://img.shields.io/badge/huggingface-0d1117?style=flat-square&logo=huggingface&logoColor=c084fc)
-![Ollama](https://img.shields.io/badge/ollama-0d1117?style=flat-square&logo=llama&logoColor=c084fc)
-
-**backend**  
-![FastAPI](https://img.shields.io/badge/fastapi-0d1117?style=flat-square&logo=fastapi&logoColor=c084fc)
-![PostgreSQL](https://img.shields.io/badge/postgresql-0d1117?style=flat-square&logo=postgresql&logoColor=c084fc)
-![Docker](https://img.shields.io/badge/docker-0d1117?style=flat-square&logo=docker&logoColor=c084fc)
-![Git](https://img.shields.io/badge/git-0d1117?style=flat-square&logo=git&logoColor=c084fc)
-
-**also**  
-![Java](https://img.shields.io/badge/java-0d1117?style=flat-square&logo=openjdk&logoColor=7c3aed)
-![C#](https://img.shields.io/badge/c%23-0d1117?style=flat-square&logo=csharp&logoColor=7c3aed)
-![Blender](https://img.shields.io/badge/blender-0d1117?style=flat-square&logo=blender&logoColor=7c3aed)
+- AI chatbots for PDFs, websites, and knowledge bases
+- internal AI tools for teams and business operations
+- OpenAI / Claude / Gemini integrations
+- workflow automation with APIs, webhooks, and n8n
+- RAG pipelines with source-aware responses
 
 ---
 
-### github
+## `engineering_mindset`
 
-![stats](https://github-readme-stats.vercel.app/api?username=barismsi&show_icons=true&hide_border=true&bg_color=0d0d1a&title_color=c084fc&icon_color=7c3aed&text_color=9ca3af&count_private=true&hide_rank=false)
+I like building systems that are:
 
-![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=barismsi&layout=compact&hide_border=true&bg_color=0d0d1a&title_color=c084fc&text_color=9ca3af&langs_count=6)
+- **modular** enough to extend
+- **practical** enough to ship
+- **simple** enough to maintain
+- **polished** enough to trust
+
+I am especially interested in:
+- retrieval systems
+- prompt architecture
+- agent workflows
+- product-oriented AI UX
+- backend logic for AI apps
+- turning rough ideas into working software
 
 ---
 
-### find me
+## `tech_stack`
 
-[![linkedin](https://img.shields.io/badge/linkedin-0d1117?style=for-the-badge&logo=linkedin&logoColor=c084fc)](https://www.linkedin.com/in/barismsi)
-[![instagram](https://img.shields.io/badge/instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=c084fc)](https://www.instagram.com/baris.msi/)
+### AI / LLM
+<p>
+  <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/OpenAI-0d1117?style=for-the-badge&logo=openai&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/Claude-0d1117?style=for-the-badge&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/Gemini-0d1117?style=for-the-badge&logo=google&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/LangChain-0d1117?style=for-the-badge&logo=chainlink&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/Ollama-0d1117?style=for-the-badge&logoColor=A78BFA" />
+</p>
 
-<br>
+### Backend / App Logic
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=nextdotjs&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/APIs-0d1117?style=for-the-badge&logo=fastify&logoColor=A78BFA" />
+</p>
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:060618,100:12002e&height=90&section=footer&animation=twinkling)
+### Data / Infra / Automation
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/ChromaDB-0d1117?style=for-the-badge&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/n8n-0d1117?style=for-the-badge&logo=n8n&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=A78BFA" />
+  <img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=A78BFA" />
+</p>
+
+---
+
+## `featured_direction`
+
+```ts
+const interests = [
+  "RAG chatbots for documents and websites",
+  "AI assistants for internal business use",
+  "LLM integrations inside real products",
+  "Workflow automation with APIs and AI logic",
+  "Clean, useful, product-ready AI interfaces"
+];
+```
+
+---
+
+## `github_stats`
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=barismsi&show_icons=true&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=cbd5e1&count_private=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=barismsi&layout=compact&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=cbd5e1" />
+</p>
+
+---
+
+## `connect`
+
+<p>
+  <a href="https://www.linkedin.com/in/barismsi">
+    <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=A78BFA" />
+  </a>
+  <a href="https://www.instagram.com/barismsi?igsh=MWd6M2ZyOTJtbDFyag%3D%3D&utm_source=qr">
+    <img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=A78BFA" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:1e1b4b,100:0f172a&height=100&section=footer" />
+</p>
