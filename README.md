@@ -10,7 +10,7 @@
 
 <br>
 
-### 01 / Behind the screen
+## 01 / Behind the screen
 
 I'm **Barış**. I create in Blender, enjoy building Minecraft worlds, and am now learning how to turn ideas into programs with **C#**.
 
@@ -26,13 +26,13 @@ Console.WriteLine("Building my next chapter.");
 
 <br>
 
-### 02 / One concept at a time
+## 02 / One concept at a time
 
-| NOW · Building a foundation | NEXT · Putting it into practice |
+![Animated C# learning roadmap: foundations active, followed by control flow, methods and first project.](assets/learning.gif)
+
+| Exploring now | On the horizon |
 | :--- | :--- |
-| Variables and data types | Conditions and loops |
-| Small C# exercises | Methods and problem solving |
-| Understanding each line | Object-oriented programming |
+| Variables · data types · small exercises | Conditions · loops · methods · OOP |
 
 <details>
 <summary><b>A note on the journey</b></summary>
@@ -43,22 +43,20 @@ I'm at the fundamentals stage. As I learn, I want to build small projects I can 
 
 <br>
 
-### 03 / The creative workbench
+## 03 / The creative workbench
 
 Before a line of code, sometimes there's a scene, a material, or an idea for an animation.
 
-<a href="https://github.com/barismsi/MineShader-Enhancer"><img src="assets/mineshader.png" width="49%" alt="MineShader Enhancer — Blender tools for Minecraft material settings. Explore repository." /></a>
-<a href="https://github.com/barismsi/barismsi-color-reveal"><img src="assets/color-reveal.png" width="49%" alt="Color Reveal — a Blender selective-color project. Explore repository." /></a>
+<a href="https://github.com/barismsi/MineShader-Enhancer"><img src="assets/mineshader.gif" width="49%" alt="Animated MineShader Enhancer project card." /></a>
+<a href="https://github.com/barismsi/barismsi-color-reveal"><img src="assets/color-reveal.gif" width="49%" alt="Animated Color Reveal project card." /></a>
 
 **MineShader Enhancer** adjusts Minecraft material subsurface settings. **Color Reveal** is my Blender color-reveal project; its repository is being set up.
 
 <br>
 
----
-
 <div align="center">
 
-### Good things start with curiosity.
+![Good things start with curiosity. Animated footer.](assets/footer.gif)
 
 Code, creative tools, or a shared interest—let's connect.
 
