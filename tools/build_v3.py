@@ -49,8 +49,8 @@ for n in range(48):
 save_gif(frames,A/'learning.gif')
 
 projects=[
- ('mineshader.gif','01','MineShader Enhancer','Minecraft material tools','BLENDER / MATERIALS','ADJUST · REFINE · CREATE'),
- ('color-reveal.gif','02','Color Reveal','Selective color. Creative control.','BLENDER / COLOR','MASK · REVEAL · ANIMATE')
+ ('mineshader.gif','01','MineShader Enhancer','Blender material workflow tool','PYTHON / BLENDER','ADJUST · REFINE · CREATE'),
+ ('color-reveal.gif','02','Color Reveal','Selective color. Creative control.','PYTHON / BLENDER','MASK · REVEAL · ANIMATE')
 ]
 for filename,num,title,subtitle,tag,verbs in projects:
     frames=[]

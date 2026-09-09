@@ -2,7 +2,7 @@
 
 ![Barış — A creative eye. A new chapter in code.](assets/workspace.gif)
 
-**C# LEARNER** &nbsp; / &nbsp; **BLENDER CREATOR** &nbsp; / &nbsp; **CURIOUS BY DEFAULT**
+**C# LEARNER** &nbsp; / &nbsp; **PYTHON BUILDER** &nbsp; / &nbsp; **BLENDER CREATOR**
 
 [Projects](#03--the-creative-workbench) &nbsp; · &nbsp; [Learning](#02--one-concept-at-a-time) &nbsp; · &nbsp; [LinkedIn](https://www.linkedin.com/in/barismsi) &nbsp; · &nbsp; [Instagram](https://www.instagram.com/barismsi)
 
@@ -12,9 +12,11 @@
 
 ## 01 / Behind the screen
 
-I'm **Barış**. I create in Blender, enjoy building Minecraft worlds, and am now learning how to turn ideas into programs with **C#**.
+I'm **Barış**. I'm learning how to turn ideas into programs with **C#**, while using **Python** to build practical tools for my creative work in **Blender**.
 
-I like understanding how things work—and taking care of how they look. This profile is where my creative work meets my programming journey.
+I like understanding how things work—and taking care of how they look. This profile is where logic, motion, and visual craft meet.
+
+![Animated creative stack showing C#, Python and Blender.](assets/stack.gif)
 
 ```csharp
 // About.cs — the current chapter
@@ -45,12 +47,12 @@ I'm at the fundamentals stage. As I learn, I want to build small projects I can 
 
 ## 03 / The creative workbench
 
-Before a line of code, sometimes there's a scene, a material, or an idea for an animation.
+Sometimes a project starts with code. Sometimes it starts with a scene, a material, or an animation idea. I enjoy the space where both sides meet.
 
 <a href="https://github.com/barismsi/MineShader-Enhancer"><img src="assets/mineshader.gif" width="49%" alt="Animated MineShader Enhancer project card." /></a>
 <a href="https://github.com/barismsi/barismsi-color-reveal"><img src="assets/color-reveal.gif" width="49%" alt="Animated Color Reveal project card." /></a>
 
-**MineShader Enhancer** adjusts Minecraft material subsurface settings. **Color Reveal** is my Blender color-reveal project; its repository is being set up.
+**MineShader Enhancer** is a Python-powered Blender material workflow tool. **Color Reveal** is my selective-color add-on project for Blender.
 
 <br>
 

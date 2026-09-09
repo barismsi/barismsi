@@ -24,7 +24,7 @@ for n in range(64):
  d.text((54,294),'A creative eye.',font=f(32,True),fill=WHITE)
  d.text((54,338),'A new chapter in code.',font=f(32,True),fill=BLUE)
  d.text((55,402),'Learning C# from the ground up.',font=f(19),fill=MUTED)
- d.text((55,432),'Bringing a Blender mindset along.',font=f(19),fill=MUTED)
+ d.text((55,432),'Building Blender tools with Python.',font=f(19),fill=MUTED)
  a=2*math.pi*n/64; pts=[]
  for x,y,z in [(-1,-1,-1),(1,-1,-1),(1,1,-1),(-1,1,-1),(-1,-1,1),(1,-1,1),(1,1,1),(-1,1,1)]:
   xx=x*math.cos(a)+z*math.sin(a); zz=-x*math.sin(a)+z*math.cos(a)
@@ -43,13 +43,13 @@ for n in range(64):
  d.text((53,533),'CURRENT FOCUS',font=f(12,m=True),fill=MUTED)
  d.text((190,530),'C# fundamentals',font=f(16),fill=WHITE)
  d.text((756,533),'CREATIVE SIDE',font=f(12,m=True),fill=MUTED)
- d.text((886,530),'Blender / Minecraft',font=f(16),fill=WHITE)
+ d.text((886,530),'Python / Blender',font=f(16),fill=WHITE)
  frames.append(im)
 frames[8].save(A/'workspace.png')
 palette=frames[0].quantize(colors=64)
 frames=[im.quantize(palette=palette,dither=Image.Dither.NONE) for im in frames]
 frames[0].save(A/'workspace.gif',save_all=True,append_images=frames[1:],duration=85,loop=0,optimize=True)
-for filename,number,title,subtitle,tag in [('mineshader.png','01','MineShader','Minecraft material tools','BLENDER / MATERIALS'),('color-reveal.png','02','Color Reveal','Selective color. Creative control.','BLENDER / COLOR')]:
+for filename,number,title,subtitle,tag in [('mineshader.png','01','MineShader','Blender material workflow','BLENDER / PYTHON'),('color-reveal.png','02','Color Reveal','Selective color. Creative control.','BLENDER / PYTHON')]:
  im=base(760,280);d=ImageDraw.Draw(im)
  d.rounded_rectangle((1,1,758,278),15,outline='#29496c',width=2)
  d.text((30,24),tag,font=f(14,m=True),fill=BLUE)
