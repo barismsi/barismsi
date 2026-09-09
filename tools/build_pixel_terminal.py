@@ -33,7 +33,7 @@ def terminal(w, h, title):
     for i, color in enumerate(("#1b557d", "#2589c7", "#52bfff")):
         d.rectangle((20 + i * 22, 20, 30 + i * 22, 30), fill=color)
     d.text((104, 14), title, font=font(15), fill=MUTED)
-    d.text((w - 154, 14), "● ONLINE", font=font(13), fill=GREEN)
+    d.text((w - 154, 14), "● PROFILE", font=font(13), fill=GREEN)
     return im
 
 def cursor(d, x, y, frame, size=18):
@@ -44,9 +44,14 @@ def type_text(text, progress):
     return text[:max(0, min(len(text), int(progress)))]
 
 def save_gif(frames, path, duration=75):
-    palette = frames[0].quantize(colors=64)
+    # Include colors that appear only after the boot sequence.
+    samples = [frames[i].resize((240, 130)) for i in range(0, len(frames), max(1, len(frames) // 12))]
+    atlas = Image.new("RGB", (240, 130 * len(samples)))
+    for index, sample in enumerate(samples):
+        atlas.paste(sample, (0, index * 130))
+    palette = atlas.quantize(colors=128)
     frames = [im.quantize(palette=palette, dither=Image.Dither.NONE) for im in frames]
-    frames[0].save(path, save_all=True, append_images=frames[1:], duration=duration, loop=0, optimize=True)
+    frames[0].save(path, save_all=True, append_images=frames[1:], duration=[duration] * (len(frames) - 1) + [3500], loop=0, optimize=True)
 
 # Main boot sequence: commands appear one by one and loop.
 frames = []
@@ -57,8 +62,8 @@ lines = [
     ("[ OK ] toolset......... Python", GREEN),
     ("[ OK ] creative_mode... Blender", GREEN),
 ]
-for frame in range(108):
-    im = terminal(1200, 650, "barismsi@github  /  profile.exe")
+for frame in range(128):
+    im = terminal(1200, 650, "barismsi@github  /  profile.sh")
     d = ImageDraw.Draw(im)
     y = 78
     budget = frame * 2.15
@@ -76,7 +81,7 @@ for frame in range(108):
         d.text((37, 346), name, font=font(78, True), fill=WHITE)
         sub = type_text("LEARNING CODE. BUILDING TOOLS. CREATING MOTION.", max(0, reveal - 25) * 1.7)
         d.text((43, 450), sub, font=font(19), fill=BLUE)
-        prompt = type_text("READY > explore_the_workspace", max(0, reveal - 42) * 1.5)
+        prompt = type_text("READY > scroll to explore", max(0, reveal - 42) * 1.5)
         d.text((43, 524), prompt, font=font(17), fill=MUTED)
         box = d.textbbox((43, 524), prompt, font=font(17))
         cursor(d, box[2] + 5, 524, frame)
@@ -85,18 +90,18 @@ for frame in range(108):
         height = int(8 + 25 * (math.sin(frame * .16 + i * .7) + 1) / 2)
         d.rectangle((880 + i * 16, 592 - height, 887 + i * 16, 592), fill=(20, 90 + i * 5, 160 + i * 5))
     frames.append(im)
-frames[90].save(ASSETS / "terminal-hero.png")
+frames[-1].save(ASSETS / "terminal-hero.png")
 save_gif(frames, ASSETS / "terminal-hero.gif", 72)
 
 # Current focus terminal.
 frames = []
 focus_lines = [
-    "> focus.current = C# fundamentals;",
-    "> tools.active  = Python;",
-    "> canvas.mode   = Blender;",
-    "> mindset       = learn + build + improve;",
+    "focus.current : C# fundamentals",
+    "tools.active  : Python",
+    "canvas.mode   : Blender",
+    "mindset       : learn / build / improve",
 ]
-for frame in range(72):
+for frame in range(7 + math.ceil(sum(len(line) + 5 for line in focus_lines) / 2.1) + 5):
     im = terminal(1200, 330, "focus.log")
     d = ImageDraw.Draw(im)
     d.text((35, 72), "$ cat current_focus.log", font=font(17), fill=BLUE)
@@ -109,9 +114,9 @@ for frame in range(72):
             d.text((87, y), shown, font=font(17), fill=WHITE if i != 3 else CYAN)
         budget -= len(line) + 5
         y += 43
-    cursor(d, 88 + min(max(budget, 0), 30) * 10, min(y, 283), frame, 16)
+    cursor(d, 87, 292, frame, 16)
     frames.append(im)
-frames[60].save(ASSETS / "focus-console.png")
+frames[-1].save(ASSETS / "focus-console.png")
 save_gif(frames, ASSETS / "focus-console.gif", 78)
 
 # Two independently clickable project terminals.
@@ -135,7 +140,7 @@ for filename, number, name, stack, desc, command in projects:
             d.rectangle((28, 250, 731, 252), fill=LINE)
             scan = int(28 + ((frame - 33) % 24) / 23 * 703)
             d.rectangle((28, 249, scan, 253), fill=BLUE)
-            d.text((28, 278), "CLICK TO EXECUTE  >", font=font(13), fill=CYAN)
+            d.text((28, 278), "OPEN REPOSITORY  >", font=font(13), fill=CYAN)
         for j in range(7):
             x = 600 + ((frame * 5 + j * 21) % 110)
             y = 113 + ((frame * 3 + j * 27) % 100)
@@ -145,9 +150,9 @@ for filename, number, name, stack, desc, command in projects:
 
 # Footer command prompt.
 frames = []
-commands = ["$ connect --with barismsi", "Opening LinkedIn · Instagram · Repositories", "Connection ready."]
+commands = ["$ connect --with barismsi", "LinkedIn / Instagram / Repositories", "Choose a link below."]
 for frame in range(66):
-    im = terminal(1200, 220, "connect.cmd")
+    im = terminal(1200, 220, "connect.sh")
     d = ImageDraw.Draw(im)
     budget = frame * 2.1
     y = 76
@@ -161,6 +166,6 @@ for frame in range(66):
         wave = int(8 * math.sin(frame * .18 + j * .5))
         d.rectangle((x, 172 + wave, x + 6, 178 + wave), fill=["#155989", "#2b9eeb", "#81d5ff"][j % 3])
     frames.append(im)
-frames[54].save(ASSETS / "connect-console.png")
+frames[-1].save(ASSETS / "connect-console.png")
 save_gif(frames, ASSETS / "connect-console.gif", 80)
 print("Generated complete pixel terminal profile")

@@ -4,13 +4,13 @@
 
 ### `C# learner` · `Python builder` · `Blender creator`
 
-[`> ABOUT`](#about-terminal) &nbsp; [`> CURRENT FOCUS`](#current-focus) &nbsp; [`> PROJECTS`](#featured-projects) &nbsp; [`> CONNECT`](#connect)
+[`> ABOUT`](#about-me) &nbsp; [`> CURRENT FOCUS`](#current-focus) &nbsp; [`> PROJECTS`](#featured-projects) &nbsp; [`> CONNECT`](#connect)
 
 </div>
 
 <br>
 
-## About terminal
+## About me
 
 ```console
 barismsi@github:~$ whoami
@@ -28,13 +28,11 @@ I'm currently learning **C# from the ground up**. I also use **Python** to creat
 
 ![Animated terminal showing the current C#, Python and Blender focus](assets/focus-console.gif)
 
+**Current focus:** C# fundamentals · Python tools · Blender workflows.
+
 ```csharp
-while (curious)
-{
-    Learn();
-    Build();
-    Improve();
-}
+Console.WriteLine("Hello, I’m Barış!");
+Console.WriteLine("Learning C#, one small project at a time.");
 ```
 
 <details>
@@ -53,11 +51,16 @@ while (curious)
 ## Featured projects
 
 <p align="center">
-  <a href="https://github.com/barismsi/MineShader-Enhancer"><img src="assets/project-mineshader.gif" width="49%" alt="Open the animated MineShader Enhancer project card" /></a>
-  <a href="https://github.com/barismsi/barismsi-color-reveal"><img src="assets/project-color-reveal.gif" width="49%" alt="Open the animated Color Reveal project card" /></a>
+  <a href="https://github.com/barismsi/MineShader-Enhancer"><img src="assets/project-mineshader.gif" width="600" alt="Open the animated MineShader Enhancer project card" /></a>
+  <br><br>
+  <a href="https://github.com/barismsi/barismsi-color-reveal"><img src="assets/project-color-reveal.gif" width="600" alt="Open the animated Color Reveal project card" /></a>
 </p>
 
-These projects are where **Python and Blender** meet: tools built to improve creative workflows and give visual ideas more control.
+**[MineShader Enhancer](https://github.com/barismsi/MineShader-Enhancer)** — Blender material workflow tools.
+
+**[Color Reveal](https://github.com/barismsi/barismsi-color-reveal)** — Selective color and grayscale effects for Blender.
+
+The repository pages are still being documented.
 
 <br>
 
